@@ -4,6 +4,10 @@
   "description": "Provides a command to switch between source and test files, for use with JavaScript and TypeScript and Jest, inspired by MoreUnit.",
   "publisher": "greensopinion",
   "version": "0.2.0",
+  "repository": {
+    "url": "github:greensopinion/vscode-test-switcher"
+  },
+  "license": "Apache-2.0",
   "engines": {
     "vscode": "^1.38.0"
   },
