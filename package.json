@@ -1,9 +1,9 @@
 {
   "name": "test-switcher",
   "displayName": "Switch To/From Jest Test",
-  "description": "Provides a command to switch between source and test files, for use with JavaScript and TypeScript and Jest, inspired by MoreUnit.",
+  "description": "Switch between source and test files with a single command. For use with JavaScript and TypeScript and Jest, inspired by MoreUnit.",
   "publisher": "greensopinion",
-  "version": "0.2.1",
+  "version": "0.2.2",
   "repository": {
     "type": "git",
     "url": "https://github.com/greensopinion/vscode-test-switcher.git"

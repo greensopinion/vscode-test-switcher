@@ -1,10 +1,12 @@
 # test-switcher README
 
-Provides a command to switch between source and test files, for use with JavaScript and TypeScript and Jest, inspired by MoreUnit.
+Switch between source and test files with a single command. For use with JavaScript and TypeScript and Jest, inspired by MoreUnit.
 
 ## Features
 
 Use `CTRL+SHIFT+T` or `CMD+SHIFT+T` to switch between application source code and test code.
+
+If the test doesn't exist, a new file is created.
 
 ## Limitations
 
