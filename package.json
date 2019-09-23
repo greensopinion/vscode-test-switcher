@@ -37,7 +37,8 @@
   },
   "scripts": {
     "test": "eslint . && jest",
-    "package": "vsce package"
+    "package": "vsce package",
+    "publish": "npm run test && npm run package && vsce publish"
   },
   "devDependencies": {
     "babel-eslint": "^10.0.3",
