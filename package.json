@@ -1,0 +1,52 @@
+{
+  "name": "test-switcher",
+  "displayName": "Switch To/From Jest Test",
+  "description": "Provides a command to switch between source and test files, for use with JavaScript and TypeScript and Jest, inspired by MoreUnit.",
+  "publisher": "greensopinion",
+  "version": "0.2.0",
+  "engines": {
+    "vscode": "^1.38.0"
+  },
+  "categories": [
+    "Other"
+  ],
+  "activationEvents": [
+    "onCommand:greensopinion.switchToFromTest"
+  ],
+  "main": "./extension",
+  "contributes": {
+    "commands": [
+      {
+        "command": "greensopinion.switchToFromTest",
+        "title": "Switch To/From Jest Test"
+      }
+    ],
+    "keybindings": [
+      {
+        "command": "greensopinion.switchToFromTest",
+        "key": "ctrl+shift+t",
+        "mac": "cmd+shift+t",
+        "when": "editorTextFocus"
+      }
+    ]
+  },
+  "scripts": {
+    "test": "eslint . && jest",
+    "package": "vsce package"
+  },
+  "devDependencies": {
+    "babel-eslint": "^10.0.3",
+    "eslint": "^5.13.0",
+    "eslint-config-prettier": "^6.3.0",
+    "eslint-plugin-jest": "^22.17.0",
+    "eslint-plugin-prettier": "^3.1.1",
+    "jest": "^24.9.0",
+    "prettier": "^1.18.2",
+    "vscode-test": "^1.2.0"
+  },
+  "dependencies": {
+    "fs": "0.0.1-security",
+    "mkdirp": "^0.5.1",
+    "path": "^0.12.7"
+  }
+}
