@@ -28,3 +28,9 @@ To package your changes for local installation, try:
 `npm run package`
 
 Then from Visual Studio Code, run the "Extensions: Install from VSIX..." command
+
+## Publishing
+
+Running the following command will run tests, package and publish the extension to the marketplace:
+
+`npm run publish`
